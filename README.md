@@ -14,8 +14,8 @@ A full-stack task management application built with **NestJS** (backend) and **A
 ### Install
 
 ```bash
-git clone <repo-url>
-cd <workspace>
+git clone https://github.com/vrajpatel1411/vpatel-ade0ed66-49b7-4b28-986a-a9e2e299702c.git
+cd vpatel-ade0ed66-49b7-4b28-986a-a9e2e299702c.git
 npm install
 ```
 
@@ -186,4 +186,5 @@ Performed the unit test of Backend as shown in below image:
 - **Email verification** — OTP code sent on registration, required before first login
 - **Rate limiting** — `@nestjs/throttler` on auth endpoints to prevent brute force attacks
 - **Pagination and filters** — cursor-based pagination on `GET /tasks` with filters by status, assignee, and date range
+
 - **Conduct rigorous testing** - add more unit and will do end-2-end testing of api, also will do the ui testing.
